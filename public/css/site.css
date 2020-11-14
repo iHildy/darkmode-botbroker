@@ -1,0 +1,25 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #171C30;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #171C30;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #BFC3EE;
+  border-radius: 10px;
+}
+
+.active{
+  display: block;
+}    

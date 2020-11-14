@@ -1,0 +1,23 @@
+{
+  "name": "oneclick-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o ./public/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iHildy/oneclick-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iHildy/oneclick-website/issues"
+  },
+  "homepage": "https://github.com/iHildy/oneclick-website#readme",
+  "dependencies": {
+    "tailwindcss": "^1.9.4"
+  }
+}
