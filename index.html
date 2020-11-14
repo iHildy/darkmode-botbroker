@@ -28,7 +28,6 @@
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <!-- flickity (carousel) -->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </head>
 
 <body class="bg-darkgray text-offwhite">
@@ -42,7 +41,7 @@
                         d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z" />
                 </svg>
                 <span class="text-xl text-white font-bold uppercase tracking-wide">Talwind CSS</span> -->
-                <img src="https://botbroker.io/images/logo-spacing.png" alt="Logo" class="w-32 mr-2" draggable="false">
+                <img src="public/img/darkLogo.png" alt="Logo" class="w-32 mr-2" draggable="false">
             </a>
             <button
                 class="text-white inline-flex p-3 rounded lg:hidden ml-auto hover:text-gray-400 outline-none nav-toggler"
@@ -105,35 +104,48 @@
         <!-- Main section -->
         <main>
             <section class="mx-auto container md:max-w-80p px-4 mt-16">
-                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
                         <!-- Title/carousel/buttons -->
-                        <div>
+                        <div class="text-center lg:text-left">
                             <h3 class="font-bold">The safe & instant marketplace for legit sneaker bots</h3>
-                            <h1 class="font-bold uppercase title mt-4">INSTANTLY BUY AND SELL TOP RATED SNEAKER BOTS WITH COMPLETE PEACE OF MIND</h1>
+                            <h1 class="mt-4 font-bold uppercase title text-3xl">INSTANTLY BUY AND SELL TOP RATED SNEAKER BOTS WITH COMPLETE PEACE OF MIND</h1>
                             <!-- Carousel -->
-                            <div class="pt-16">
-
+                            <div class="mt-0 md:my-3">
+                                <!-- <div class="carousel">
+                                    <div class="carousel-cell"><img src="public/img/yeezy.png" alt="Yeezy" class="h-full"></div>
+                                    <div class="carousel-cell"><img src="public/img/adidas.png" alt="Adidas" class="h-full"></div>
+                                    <div class="carousel-cell"><img src="public/img/supreme.png" alt="Supreme" class="h-full"></div>
+                                    <div class="carousel-cell"><img src="public/img/nike.png" alt="nike" class="h-full"></div>
+                                    <div class="carousel-cell"><img src="public/img/offwhiteIMG.png" alt="offwhite" class="h-full"></div>
+                                    <div class="carousel-cell"><img src="public/img/bape.png" alt="bape" class="h-full"></div>
+                                </div> -->
+                                <img src="public/img/bape.png" alt="bape" class="h-32">
+                                
                             </div>
                             <h3 class="font-bold">Shop the most successful bots to secure the most coveted sneakers, clothing, funkos, and more with ease.</h3>
-                            <div class="pt-8 font-medium tracking-wider text-lg space-x-4">
-                                <a href="#">
-                                    <button
-                                        class="bg-secondary border border-secondary hover:shadow-inner text-white font-bold py-2 px-6 rounded transition duration-500 ease-in-out">
-                                        Watch how it works
-                                    </button>
-                                </a>
-                                <a href="#features">
-                                    <button
-                                        class="border border-offwhite hover:bg-button2 text-white font-bold py-2 px-4 rounded transition duration-500 ease-in-out">
-                                        Browse bots
-                                    </button>
-                                </a>
+                            <div class="pt-3 font-medium tracking-wider text-sm grid grid-cols-2">
+                                <div class="">
+                                    <a href="#">
+                                        <button
+                                            class="bg-secondary border border-secondary hover:bg-red-700 hover:border-red-700 text-white hover:text-gray-400 py-2 px-2 w-full rounded transition duration-500 ease-in-out">
+                                            Watch how it works
+                                        </button>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#features">
+                                        <button
+                                            class="border border-offwhite hover:bg-offwhite text-white hover:text-primary py-2 px-2 w-full mx-2 rounded transition duration-500 ease-in-out">
+                                            Browse bots
+                                        </button>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <!-- Images -->
-                        <div class="hidden lg:block">
+                        <div class="hidden lg:block my-auto mx-auto">
                             <div class="">
-                                <img src="https://i.imgur.com/NsoOPmY.png" alt="Bot images" class="mx-auto my-auto" draggable="false">
+                                <img src="public/img/botIMGs.png" alt="Bot images" class="mx-auto my-auto" draggable="false">
                             </div>
                         </div>
                     </div>
@@ -148,8 +160,31 @@
 
         </footer>
     </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<!-- jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<!-- Personal JS -->
 <script src="public/js/app.js"></script>
+<!-- Flickity JS -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script>
+    // Flicktiy initiate
+    $('.carousel').flickity({
+        lazyLoad: true,
+        prevNextButtons: false,
+        percentPosition: false,
+        wrapAround: true,
+        pageDots: false,
+        autoPlay: 2000,
+        pauseAutoPlayOnHover: false,
+        on: {
+            ready: function () {
+                $("#logo_carousel").css('opacity', 1);
+                window.dispatchEvent(new Event('resize'));
+            }
+        }
+    })
+</script>
 </body>
 
 </html>
